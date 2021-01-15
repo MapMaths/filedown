@@ -1,0 +1,26 @@
+{
+    "dependencies": {
+      "showdown": "^1.9.1",
+      "chalk": ""
+    },
+    "name": "filedown",
+    "version": "1.0.0",
+    "description": "A Markdown-HTML file converter based on Showdown and Chalk.",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "filedown"
+    },
+    "keywords": [
+      "markdown",
+      "html",
+      "converter",
+      "file"
+    ],
+    "author": "MapMaths",
+    "license": "ISC"
+  }
