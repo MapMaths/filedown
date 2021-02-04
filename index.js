@@ -1,31 +1,32 @@
-const m = 1;
-const h = 2;
-const showdown = require('showdown');
-const converter = new showdown.Converter();
-const chalk = require('chalk');
-const error = chalk.red.bold;
-const fs = require('fs');
+const hm = 1;
+const mh = 2;
+import { Converter } from 'showdown';
+const converter = new Converter();
+import { red } from 'chalk';
+const error = red.bold;
+import { readFileSync, writeFileSync } from 'fs';
 
-function fileerror(){
-    console.log(error("Type should be input a variable like `m` or `h`"));
+function typerror(){
+    console.log(error("The `typ` selection should be input as `hm` or `mh`"));
+    console.log(error("See"));
 }
 
 function make(typ, bef, aft) {
     let con;
-    let text = fs.readFileSync(bef).toString();
+    let text = readFileSync(bef).toString();
     if (typ == 1) {
         con = converter.makeMd(text);
     } else if (typ == 2) {
         con = converter.makeHtml(text);
     } else {
-        fileerror();
+        typerror();
     }
-    let output = fs.writeFileSync(aft, con);
+    let output = writeFileSync(aft, con);
     console.log(output);
 }
 
-module.exports = {
-    m, 
-    h, 
+export default {
+    hm, 
+    mh, 
     make
 };

@@ -1,26 +1,26 @@
 {
     "dependencies": {
-      "showdown": "^1.9.1",
-      "chalk": "4.1.0"
+        "@mapmaths/filedown": "^1.0.1",
+        "chalk": "^4.1.0",
+        "showdown": "^1.9.1"
     },
     "name": "@mapmaths/filedown",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Markdown-HTML file Node library based on Showdown and Chalk written in JavaScript.",
     "main": "index.js",
-    "devDependencies": {},
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "filedown"
+        "type": "git",
+        "url": "filedown"
     },
     "keywords": [
-      "markdown",
-      "html",
-      "converter",
-      "file"
+        "markdown",
+        "html",
+        "converter",
+        "file"
     ],
     "author": "MapMaths",
     "license": "ISC"
-  }
+}

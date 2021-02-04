@@ -1,11 +1,11 @@
 # Filedown
 
-> A Markdown-HTML file Node library based on Showdown and Chalk written in JavaScript.
+> A Markdown-HTML file converter library based on Showdown and Chalk written in JavaScript.
 
 # Highlights
 
-- Make Markdown into HTML quickly and conveniently.
-- Use variables `m` and `h` to mark what kind of file will be output.
+- Convert Markdown or HTML with less codes.
+- Use variables `mh` and `hm` to mark what kind of file will be output.
 
 # Install
 
@@ -15,13 +15,33 @@ $ npm install @mapmaths/filedown
 
 # Usage
 
-> Wait for update.
+Use the `make()` function to convert.
+
+```javascript
+const fd = require('@mapmaths/filedown'),
+      mh = fd.mh,
+      hm = fd.hm;
+
+fd.make(mh, 'markdown.md', 'html.htm');
+//Convert `markdown.md` into `html.htm`
+
+fd.make(hm, 'index.html', 'md.markdown');
+//Convert `index.html` into `md.markdown`
+```
+
+
 
 # Changelog
 
 ### Version 1.0
 
-#### V1.0
+#### V1.0.1
+
+**Jan 16, 2021**
+
+1. Change `[variable]m, h` into`[variable]mh, hm`.
+
+#### V1.0.0
 
 **Jan 16, 2021**
 
