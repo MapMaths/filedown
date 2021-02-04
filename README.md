@@ -35,6 +35,12 @@ fd.make(hm, 'index.html', 'md.markdown');
 
 ### Version 1.0
 
+#### V1.0.2
+
+**Jan 16, 2021**
+
+1. Improved document.
+
 #### V1.0.1
 
 **Jan 16, 2021**
