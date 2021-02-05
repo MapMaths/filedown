@@ -31,7 +31,9 @@ fd.make(hm, 'index.html', 'md.markdown');
 //Convert `index.html` into `md.markdown`
 ```
 
+# Special thanks
 
+@gitignore-nmp (or @ljy-002 on GitHub) helps improve this lib.✨
 
 # Changelog
 
