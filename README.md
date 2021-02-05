@@ -2,6 +2,8 @@
 
 > A Markdown-HTML file converter library based on Showdown and Chalk written in JavaScript.
 
+---
+
 # Highlights
 
 - Convert Markdown or HTML with less codes.
