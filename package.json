@@ -1,11 +1,10 @@
 {
     "dependencies": {
-        "@mapmaths/filedown": "^1.0.2",
         "chalk": "^4.1.0",
         "showdown": "^1.9.1"
     },
     "name": "@mapmaths/filedown",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A Markdown-HTML file Node library based on Showdown and Chalk written in JavaScript.",
     "main": "index.js",
     "scripts": {
