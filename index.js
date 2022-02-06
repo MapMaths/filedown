@@ -1,5 +1,5 @@
-const hm = 1;
-const mh = 2;
+const h2m = 1;
+const m2h = 2;
 import { Converter } from 'showdown';
 const converter = new Converter();
 import { red } from 'chalk';
@@ -26,7 +26,7 @@ function make(typ, bef, aft) {
 }
 
 export default {
-    hm, 
-    mh, 
+    h2m, 
+    m2h, 
     make
 };
