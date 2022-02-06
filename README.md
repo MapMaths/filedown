@@ -4,18 +4,18 @@
 
 ---
 
-# Highlights
+## Highlights
 
 - Convert Markdown or HTML with less codes.
 - Use variables `mh` and `hm` to mark what kind of file will be output.
 
-# Install
+## Install
 
 ```shell
-$ npm install @mapmaths/filedown
+npm install @mapmaths/filedown
 ```
 
-# Usage
+## Usage
 
 Use the `make()` function to convert.
 
@@ -31,11 +31,11 @@ fd.make(hm, 'index.html', 'md.markdown');
 //Convert `index.html` into `md.markdown`
 ```
 
-# Special thanks
+## Thanks
 
 @gitignore-nmp (or @ljy-002 on GitHub) helps improve this lib.✨
 
-# Changelog
+## Changelog
 
 ### Version 1.0
 
